@@ -19,7 +19,7 @@ const posts = [
         date: "2025-10-12",
         category: "test1",
         excerpt: "test로 작성하는 글",
-        file: "2025-10-12-test1.md"
+        file: "2025-10-12-test-post.md"
     }
 ];
 
