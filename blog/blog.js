@@ -13,7 +13,7 @@ const posts = [
         category: "공지",
         excerpt: "개인 블로그를 시작합니다. 개발 관련 글, 프로젝트 소개, 일상 이야기를 다룰 예정입니다.",
         file: "2025-10-11-welcome.md"
-    }
+    },
     {
         title: "test",
         date: "2025-10-12",
