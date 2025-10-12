@@ -13,75 +13,68 @@
             <div class="logo">Class-0ne</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="blog/index.html">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>안녕하세요</h1>
-                <p class="subtitle">개발자 Class-0ne입니다</p>
-                <a href="#projects" class="cta-button">프로젝트 보기</a>
-            </div>
-        </section>
+    <main class="main-layout">
+        <!-- 왼쪽 사이드바: 프로필 -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="https://via.placeholder.com/150" alt="Profile">
+                </div>
+                <h2>Class-0ne</h2>
+                <p class="profile-bio">소프트웨어 개발에 관심이 있는 개발자입니다.</p>
 
-        <section id="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    <p>소프트웨어 개발에 관심이 있는 개발자입니다.</p>
-                    <div class="skills">
-                        <h3>Skills</h3>
-                        <ul>
-                            <li>JavaScript / TypeScript</li>
-                            <li>HTML / CSS</li>
-                            <li>React / Node.js</li>
-                            <li>Git / GitHub</li>
-                        </ul>
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>HTML/CSS</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+
+                <div class="projects-section">
+                    <h3>Projects</h3>
+                    <ul class="project-list">
+                        <li><a href="#">프로젝트 1</a></li>
+                        <li><a href="#">프로젝트 2</a></li>
+                        <li><a href="#">프로젝트 3</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact-section">
+                    <h3>Contact</h3>
+                    <div class="social-links">
+                        <a href="mailto:your.email@example.com" title="Email">📧</a>
+                        <a href="https://github.com/Class-0ne" target="_blank" title="GitHub">💻</a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn">💼</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </aside>
 
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>프로젝트 1</h3>
-                        <p>프로젝트 설명을 여기에 작성하세요.</p>
-                        <a href="#" class="project-link">자세히 보기 →</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>프로젝트 2</h3>
-                        <p>프로젝트 설명을 여기에 작성하세요.</p>
-                        <a href="#" class="project-link">자세히 보기 →</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>프로젝트 3</h3>
-                        <p>프로젝트 설명을 여기에 작성하세요.</p>
-                        <a href="#" class="project-link">자세히 보기 →</a>
-                    </div>
+        <!-- 중앙 및 오른쪽: 블로그 -->
+        <section class="content-area">
+            <div class="blog-header">
+                <h1>최근 포스트</h1>
+                <div class="category-filter">
+                    <button class="filter-btn active" data-category="all">전체</button>
+                    <button class="filter-btn" data-category="일상">일상</button>
+                    <button class="filter-btn" data-category="공지">공지</button>
+                    <button class="filter-btn" data-category="test1">test1</button>
                 </div>
             </div>
-        </section>
 
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <div class="contact-content">
-                    <p>연락을 원하시면 아래 정보를 이용해주세요.</p>
-                    <div class="contact-links">
-                        <a href="mailto:your.email@example.com">Email</a>
-                        <a href="https://github.com/Class-0ne" target="_blank">GitHub</a>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-                    </div>
-                </div>
+            <div id="blog-posts" class="blog-grid">
+                <!-- 블로그 포스트가 여기에 동적으로 로드됩니다 -->
             </div>
         </section>
     </main>
@@ -91,5 +84,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/home-blog.js"></script>
 </body>
 </html>
