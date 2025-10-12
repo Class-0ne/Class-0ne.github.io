@@ -14,6 +14,13 @@ const posts = [
         excerpt: "개인 블로그를 시작합니다. 개발 관련 글, 프로젝트 소개, 일상 이야기를 다룰 예정입니다.",
         file: "2025-10-11-welcome.md"
     }
+    {
+        title: "test",
+        date: "2025-10-12",
+        category: "test1",
+        excerpt: "test로 작성하는 글",
+        file: "2025-10-12-test1.md"
+    }
 ];
 
 // 날짜 순으로 정렬 (최신순)
