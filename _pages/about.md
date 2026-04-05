@@ -7,7 +7,7 @@ subtitle: Automotive engineering M.S. student focused on DeePC, MPC, and EV ther
 profile:
   align: right
   image: LeeJaeHwan.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
     <p>이재환 | Jaehwan Lee</p>
     <p>한양대학교 미래자동차공학과 석사과정</p>
