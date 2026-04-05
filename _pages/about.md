@@ -6,7 +6,7 @@ subtitle: Graduate portfolio for industry-sponsored projects, research studies, 
 
 profile:
   align: right
-  image: profile-placeholder.svg
+  image: LeeJaeHwan.jpg
   image_circular: false
   more_info: >
     <p>M.S. student in [Department], [University]</p>
