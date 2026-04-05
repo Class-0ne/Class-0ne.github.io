@@ -1,15 +1,18 @@
 ---
 layout: page
-title: Hyundai | Brake Thermal Capacity AI Prediction
+title: Brake Thermal Capacity AI Prediction
+company: Hyundai
 description: 브레이크 열용량 데이터 기반 예측 모델과 활용 플랫폼 개발.
 img: assets/img/project-industry.svg
 importance: 4
 category: graduate
+tags: [Machine Learning, Brake, Data-Driven]
 ---
 
 ## Overview
 
-- **기간**: 2026.05.01 - 2026.12.31
+- **과제명**: 브레이크 열용량 예측 정합성 향상을 위한 데이터 기반 AI 모델 개발
+- **기간**: 2026.05.01 ~ 2026.12.31
 - **발주처**: 현대자동차
 - **역할**: 실무책임자
 

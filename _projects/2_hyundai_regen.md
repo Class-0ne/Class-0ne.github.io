@@ -1,15 +1,18 @@
 ---
 layout: page
-title: Hyundai | Personalized Regenerative Braking Control
+title: Personalized Regenerative Braking Control
+company: Hyundai
 description: 운전자 선호와 개입 가능성을 함께 고려한 개인화 회생제동 제어 연구.
 img: assets/img/project-industry.svg
-importance: 1
+importance: 2
 category: graduate
+tags: [MPC, Regenerative Braking, CarMaker]
 ---
 
 ## Overview
 
-- **기간**: 2025.07.15 - 2026.07.14
+- **과제명**: 도심주행에서 에너지 고효율 모션 제어를 위한 주행 최적화 및 실적용성 향상 기술 개발
+- **기간**: 2025.07.15 ~ 2026.07.14
 - **발주처**: 현대자동차
 - **역할**: 참여 연구원
 

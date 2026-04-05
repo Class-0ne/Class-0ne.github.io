@@ -1,17 +1,23 @@
 ---
 layout: page
-title: Hyundai | Model-Free EV Thermal Management DeePC
+title: Model-Free EV Thermal Management DeePC
+company: Hyundai
 description: EV 통합 열관리 시스템을 위한 model-free DeePC 개발 프로젝트.
 img: assets/img/project-research.svg
-importance: 3
+importance: 1
 category: graduate
+tags: [DeePC, EV TMS, Simscape, Data-Driven Control]
 ---
 
 ## Overview
 
-- **기간**: 2026.04.01 - 2026.11.30
+- **과제명**: 모델링이 필요없는 EV 통합 열관리 예측 제어
+- **기간**: 2026.04.01 ~ 2026.11.30
 - **발주처**: 현대자동차
+- **선정**: 현대자동차 미래기술 공모전 채택 (PoC 과제)
 - **역할**: 실무책임자
+
+> 본 과제는 현대자동차 미래기술 공모전에 자체 제안하여 채택된 과제입니다. 연구실에서 주도적으로 기획한 DeePC 기반 EV 열관리 제어 아이디어가 PoC 과제로 선정되었습니다.
 
 배터리, 모터, 인버터, HVAC가 얽힌 EV 통합 열관리 시스템을 **물리 모델 없이 제어**하는 DeePC 프레임워크를 개발하는 프로젝트입니다. 현재 석사 연구 주제와도 가장 직접적으로 연결된 과제입니다.
 
@@ -37,7 +43,7 @@ EV 통합 열관리 시스템은 상태 수가 많고 상호작용이 복잡해,
 
 - Cabin 온도 추종 성능 평가 오차 10% 이내
 - 배터리/PE 안전 범위 위반율 5% 이내
-- DeePC 제어기 평균 연산시간 1초 이내
+- DeePC 제어기 평균 연산시간 1s 이내
 
 ## Why this project matters
 

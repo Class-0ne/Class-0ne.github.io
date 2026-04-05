@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Master's Research | DeePC for EV Thermal Management
+title: DeePC for EV Thermal Management
+company: Master's Research
 description: EV thermal management를 위한 DeePC 연구 주제 정리.
 img: assets/img/project-presentation.svg
 importance: 5
 category: graduate
+tags: [DeePC, MPC, EV TMS, Thesis]
 ---
 
 ## Overview

@@ -1,17 +1,20 @@
 ---
 layout: page
-title: LG | Compressor Restart Load Modeling and MPC
+title: Compressor Restart Load Modeling and MPC
+company: LG Electronics
 description: 전동 압축기 차압기동 부하 예측과 MPC 제어기 설계 프로젝트.
 img: assets/img/project-industry.svg
-importance: 2
+importance: 3
 category: graduate
+tags: [MPC, IPMSM, Compressor, Simulink]
 ---
 
 ## Overview
 
-- **기간**: 2025.03.01 - 2025.12.31
+- **과제명**: 데이터 기반 컴프레셔 차압기동 부하 모델링 및 최적제어
+- **기간**: 2025.03.01 ~ 2025.12.31
 - **발주처**: LG전자
-- **역할**: 참여 연구원 -> 후반부 실무책임자
+- **역할**: 참여 연구원 → 후반부 실무책임자
 
 전동 압축기 재기동 시 발생하는 차압 유래 기동 부하를 데이터 기반으로 예측하고, 이를 고려한 **MPC** 제어기를 설계한 프로젝트입니다. 예측 모델과 제어기 설계를 함께 연결했다는 점이 특징입니다.
 

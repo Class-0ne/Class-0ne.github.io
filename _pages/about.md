@@ -11,11 +11,14 @@ profile:
   more_info: >
     <p class="profile-name">이재환 | Jaehwan Lee</p>
     <p>한양대학교 미래자동차공학과 석사과정</p>
-    <p>차량 제어 연구실 | 지도교수 한경석</p>
+    <p>차량 제어 연구실 (VOICE Lab)</p>
     <p>Seoul, South Korea</p>
+    <p><a href="mailto:hwani0914@gmail.com"><i class="fa-solid fa-envelope"></i> hwani0914@gmail.com</a></p>
+    <p><a href="mailto:hwani0914@hanyang.ac.kr"><i class="fa-solid fa-envelope"></i> hwani0914@hanyang.ac.kr</a></p>
+    <p><a href="https://github.com/Class-0ne"><i class="fa-brands fa-github"></i> GitHub</a></p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -48,15 +51,9 @@ latest_posts:
   </div>
 </div>
 
-## Highlights
-
-- 현대자동차: 운전자 선호와 개입 가능성을 함께 고려한 개인화 회생제동 제어
-- LG전자: 차압기동 부하 예측과 IPMSM 기반 MPC 제어기 설계
-- 현대자동차: EV 통합 열관리 시스템을 위한 model-free DeePC 프레임워크 개발
-
-## Selected Output
+<!-- ## Selected Output
 
 - IFAC Online Paper 투고  
   _Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions_
 - 2025 추계 한국자동차공학회 학술대회 포스터 발표  
-  _전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법_
+  _전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법_ -->

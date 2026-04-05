@@ -137,6 +137,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     .about-sidebar {
+      order: -1;
       max-width: 220px;
       justify-self: center;
     }
@@ -221,6 +222,51 @@ ul.task-list input[type="checkbox"] {
       justify-content: center;
       height: 100%;
     }
+  }
+
+  .company-tag-wrap {
+    margin-bottom: 0;
+  }
+
+  .company-tag-wrap + .card-title {
+    margin-top: 0.2rem;
+  }
+
+  .company-tag {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.25rem;
+    background-color: var(--global-theme-color);
+    color: #fff;
+
+    &.company-hyundai {
+      background-color: #002C5F; // Hyundai brand navy
+    }
+
+    &.company-lg-electronics {
+      background-color: #A50034; // LG brand magenta
+    }
+
+    &.company-master-s-research {
+      background-color: #555;
+    }
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .project-tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
   }
 
   .col {

@@ -14,7 +14,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: DeePC, MPC, data-driven control, EV thermal management, regenerative braking, automotive control
 lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: JH # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://class-0ne.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
