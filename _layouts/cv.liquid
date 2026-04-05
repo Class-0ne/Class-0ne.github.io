@@ -59,6 +59,7 @@ layout: default
       {% if render_rendercv and site.data.cv and site.data.cv.cv %}
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
+        {% assign empty_array = '' | split: ',' %}
 
         <!-- Header/Contact Information -->
         {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
@@ -120,9 +121,20 @@ layout: default
           </div>
         {% endif %}
 
+        {% assign education_entries = cv.sections.Education | default: empty_array %}
+        {% if education_entries.size > 0 %}
+          <a class="anchor" id="education"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Education</h3>
+            <div>
+              {% assign entries = education_entries %}
+              {% include cv/education.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
         {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
-        {% assign empty_array = '' | split: ',' %}
         {% assign exp = cv.sections.Experience | default: empty_array %}
         {% assign vol = cv.sections.Volunteer | default: empty_array %}
         {% assign industry_projects = cv.sections['Industry-Academia Projects'] | default: empty_array %}
@@ -149,7 +161,7 @@ layout: default
           {% assign section_entries = section_pair[1] %}
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' or section_title == 'Industry-Academia Projects' %}
+          {% if section_title == 'Education' or section_title == 'Experience' or section_title == 'Volunteer' or section_title == 'Industry-Academia Projects' %}
             {% continue %}
           {% endif %}
 
