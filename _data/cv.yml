@@ -22,9 +22,8 @@ cv:
         studyType: M.S.
         start_date: 2025
         end_date: 2027
-        highlights:
-          - "GPA: 4.07/4.5"
-          - "Vehicle Control Lab"
+        highlights: 
+          - "VOICE Lab (https://voicelab.hanyang.ac.kr) - Vehicle Optimal Control and Intelligent Control Lab"
           - "Advisor: Prof. Kyungseok Han"
 
       - institution: Kyungpook National University
@@ -34,11 +33,10 @@ cv:
         start_date: 2019
         end_date: 2025
         highlights:
-          - "GPA: 3.54/4.5"
-          - "Major GPA: 3.61/4.5"
+
 
     Experience:
-      - company: Vehicle Control Lab, Hanyang University
+      - company: VOICE Lab, Hanyang University
         position: M.S. Student Researcher
         location: Seoul, South Korea
         start_date: 2025
