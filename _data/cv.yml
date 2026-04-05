@@ -2,7 +2,6 @@ cv:
   name: 이재환 (Lee Jae Hwan)
   label: Graduate Researcher in Automotive Control Engineering
   email: hwani0914@hanyang.ac.kr (school) / hwani0914@gmail.com (personal)
-  phone: "(+82) 010-6244-5216"
   address:
     city: Seoul
     region: South Korea
@@ -85,14 +84,6 @@ cv:
       - title: 전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법
         publisher: 한국자동차공학회 추계학술대회 포스터 발표
         summary: 2025
-
-    Activities:
-      - label: 천차많별 (자작자동차)
-        details: 제작부장 | 경북대학교 | EV 차량 제작 총괄 및 동아리 운영, 스마트 e모빌리티 경진대회 참가
-      - label: 유진 MS 산학연계 PBL
-        details: 무동력 툴체인저 시제품 개발 팀원 | 경북대학교
-      - label: H-점프스쿨
-        details: 현대자동차그룹 대학생 교육봉사단 대표장학샘 | 현대자동차그룹
 
     Skills:
       - name: Programming
