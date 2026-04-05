@@ -6,9 +6,7 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
-        {% capture pub_date %}
-          {% if entry.releaseDate %}{{ entry.releaseDate }}{% elsif entry.date %}{{ entry.date }}{% endif %}
-        {% endcapture %}
+        {% assign pub_date = entry.releaseDate | default: entry.date | default: '' | strip %}
 
         {% if pub_date != '' %}
           <div class="col-xs-2 col-sm-2 col-md-2 text-center">

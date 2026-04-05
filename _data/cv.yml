@@ -82,8 +82,9 @@ cv:
         summary: Submitted, under review.
 
     Conference Presentations:
-      - label: 한국자동차공학회 추계학술대회 - 포스터 발표 (2025)
-        details: '이재환, "전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법"'
+      - title: 전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법
+        publisher: 한국자동차공학회 추계학술대회 포스터 발표
+        summary: 2025
 
     Activities:
       - label: 천차많별 (자작자동차)
