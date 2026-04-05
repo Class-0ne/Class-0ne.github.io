@@ -1,14 +1,16 @@
 cv:
-  name: 이재환 (Jaehwan Lee)
-  label: M.S. Student in Automotive Engineering
-  email: hwani0914@gmail.com
-  location: Seoul, South Korea
-  website: https://class-0ne.github.io
+  name: 이재환 (Lee Jae Hwan)
+  label: Graduate Researcher in Automotive Control Engineering
+  email: hwani0914@hanyang.ac.kr (school) / hwani0914@gmail.com (personal)
+  phone: "(+82) 010-6244-5216"
+  address:
+    city: Seoul
+    region: South Korea
   summary: >
-    한양대학교 미래자동차공학과 석사과정으로, Data-Enabled Predictive Control,
-    Model Predictive Control, data-driven control, EV thermal management를 중심으로
-    연구하고 있습니다. 현대자동차와 LG전자 산학과제를 통해 차량 제어, 데이터 기반 모델링,
-    시뮬레이션 및 검증 업무를 수행하고 있습니다.
+    Graduate researcher in automotive control engineering (M.S. expected Feb. 2027),
+    specializing in data-driven and model-based control for vehicle energy systems.
+    Experienced in applying MPC and DeePC to EV thermal management and regenerative braking,
+    with hands-on implementation across MATLAB/Simulink and co-simulation environments.
 
   social_networks:
     - network: GitHub
@@ -20,130 +22,82 @@ cv:
         location: Seoul, South Korea
         area: Department of Automotive Engineering
         studyType: M.S.
-        start_date: 2025
-        end_date: 2027
-        highlights: 
-          - "VOICE Lab ( https://voicelab.hanyang.ac.kr ) - Vehicle Optimal Control and Intelligent Control Lab"
-          - "Advisor: Prof. Kyungseok Han"
+        start_date: Mar. 2025
+        end_date: Feb. 2027 (expected)
+        highlights:
+          - "Research topic: Data-enabled Predictive Control for EV Thermal Management System"
+          - "Advisor: Prof. Kyungseok Han (VOICE Lab)"
 
       - institution: Kyungpook National University
         location: Daegu, South Korea
         area: School of Mechanical Engineering
         studyType: B.S.
-        start_date: 2019
-        end_date: 2025
-        highlights:
+        start_date: Mar. 2019
+        end_date: Feb. 2025
 
-
-    Experience:
-      - company: VOICE Lab, Hanyang University
-        position: M.S. Student Researcher
-        location: Seoul, South Korea
-        start_date: 2025
-        end_date: Present
-        summary: Data-enabled predictive control for EV thermal management systems.
+    Industry-Academia Projects:
+      - company: Hyundai Motor Company
+        position: Model-Free Predictive Control for EV Integrated Thermal Management
+        start_date: Apr. 2026
+        end_date: Nov. 2026
+        summary: Working-level Lead
         highlights:
-          - "Research topic: Data-enabled Predictive Control for EV Thermal Management System"
-          - "DeePC-based control design and validation for EV thermal systems"
-          - "Control-oriented simulation and evaluation workflow development"
+          - "Problem: Need real-time control of battery, motor, inverter, and HVAC thermal interactions without relying on high-fidelity physics models"
+          - "Approach: Built a Simulink/Simscape EV thermal model, collected DeePC training I/O data, and constructed a Hankel-matrix-based model-free predictive control framework"
+          - "Target: Cabin temperature tracking error within 10%, battery/PE safety violation rate within 5%, and average controller runtime under 1 s"
 
-      - company: Hyundai Motor Company Industry Projects
-        position: Participating Researcher / Working-level Lead
-        location: South Korea
-        start_date: 2025
-        end_date: Present
-        summary: Multiple industry-sponsored projects spanning regenerative braking, model-free thermal management, and data-driven AI prediction.
+      - company: Hyundai Motor Company
+        position: Data-Driven AI Modeling for Brake Thermal Capacity Prediction
+        start_date: May 2026
+        end_date: Dec. 2026
+        summary: Working-level Lead
         highlights:
-          - Personalized regenerative braking control based on driver preference and intervention modeling
-          - Model-free EV integrated thermal management control using DeePC
-          - Brake thermal capacity prediction platform with AI models and LLM-based multi-agent service
+          - "Problem: Brake thermal capacity data are fragmented across tests, making early design-stage use difficult and reducing prediction consistency"
+          - "Approach: Built an integrated test database and web search platform, developed AI prediction models using design parameters, and implemented an LLM-based role-specialized multi-agent web service"
+          - "Target: Database with more than 100 test cases and average AI prediction error below 10%"
 
-      - company: LG Electronics Industry Project
-        position: Participating Researcher -> Working-level Lead
-        location: South Korea
-        start_date: 2025
-        end_date: 2025
-        summary: Data-driven compressor differential restart load modeling and MPC control design.
+      - company: Hyundai Motor Company
+        position: Personalized Regenerative Braking Control for Urban Driving
+        start_date: Jul. 2025
+        end_date: Jul. 2026
+        summary: Participating Researcher
         highlights:
-          - LSTM-based load torque prediction model for electric compressor restart
-          - IPMSM dq-axis model-based MPC controller design with voltage constraints
-          - Project leadership transition after prior lead graduated
+          - "Problem: Conventional automatic regenerative braking maximizes energy recovery alone and can trigger driver interventions that reduce actual recovery opportunities"
+          - "Approach: Modeled driver preference and intervention distributions with GPR, then optimized braking distance based on the intervention-energy trade-off; implemented in MATLAB/Simulink and validated in CarMaker"
+          - "Outcome: Submitted IFAC Online Paper, _Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions_"
 
-    Projects:
-      - name: Hyundai | Personalized Regenerative Braking Control
-        summary: GPR 기반 운전자 선호/개입 모델링과 energy-aware 제동거리 최적화를 결합한 개인화 회생제동 제어 연구.
+      - company: LG Electronics
+        position: Data-Driven Differential Restart Load Modeling and MPC Control
+        start_date: Mar. 2025
+        end_date: Dec. 2025
+        summary: Participating Researcher -> Working-level Lead
         highlights:
-          - GPR-based BPS and APS modeling
-          - Trade-off based optimal braking distance design
-          - Simulink implementation and CarMaker validation
-        start_date: 2025
-        end_date: Present
-
-      - name: LG | Compressor Restart Load Modeling and MPC
-        summary: 차압기동 부하 예측을 위한 LSTM 모델과 IPMSM dq-axis MPC 제어기 설계 프로젝트.
-        highlights:
-          - LSTM load torque prediction pipeline
-          - MPC speed tracking with voltage constraints
-          - Detailed controller design document
-        start_date: 2025
-        end_date: 2025
-
-      - name: Hyundai | Model-Free EV Thermal Management DeePC
-        summary: 물리 모델 의존성을 줄인 EV 통합 열관리 DeePC 프레임워크 개발.
-        highlights:
-          - Simulink/Simscape integrated thermal model setup
-          - DeePC input/output data generation and Hankel matrix framework
-          - Multi-scenario control performance validation
-        start_date: 2026
-        end_date: Present
+          - "Problem: Existing simulations reflected only nominal operation, causing sim-to-real error during differential restart and requiring 2-3 weeks for repeated validation and tuning"
+          - "Approach: Built a 50-step LSTM load torque prediction pipeline from three-phase current and PWM signals, and designed an IPMSM dq-axis MPC controller for speed tracking under voltage constraints"
+          - "Outcome: Completed the LSTM pipeline, MPC controller code, and detailed design documentation; led the project in the later phase after the previous lead graduated"
 
     Publications:
       - title: Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions
         publisher: IFAC Online Paper
-        date: 2026-01-01
-        summary: Submitted manuscript based on personalized energy-aware regenerative braking control research.
+        summary: Submitted, under review.
 
-    Presentations:
-      - label: 2025 추계 한국자동차공학회 학술대회 포스터 발표
-        details: 전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법
+    Conference Presentations:
+      - label: 한국자동차공학회 추계학술대회 - 포스터 발표 (2025)
+        details: '이재환, "전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법"'
 
     Activities:
       - label: 천차많별 (자작자동차)
-        details: 2023.01 - 2024.10 | 제작부장, EV 차량 제작 총괄 및 스마트 e모빌리티 경진대회 참가
-      - label: H-점프스쿨
-        details: 2022.03 - 2022.10 | 현대자동차그룹 대학생 교육봉사단 대표장학샘
+        details: 제작부장 | 경북대학교 | EV 차량 제작 총괄 및 동아리 운영, 스마트 e모빌리티 경진대회 참가
       - label: 유진 MS 산학연계 PBL
-        details: 2023.09 - 2024.01 | 무동력 툴체인저 시제품 개발, Creo 3D 모델링, 시제품 제작, 최종 성과 발표
-      - label: H-모빌리티 클래스
-        details: 2025.04 - 2025.06 | 현대엔지비 파워트레인 Track 수료
+        details: 무동력 툴체인저 시제품 개발 팀원 | 경북대학교
+      - label: H-점프스쿨
+        details: 현대자동차그룹 대학생 교육봉사단 대표장학샘 | 현대자동차그룹
 
     Skills:
       - name: Programming
-        level: Strong
         icon: fa-solid fa-code
         keywords: MATLAB, Python
 
-      - name: Control and Modeling
-        level: Strong
-        icon: fa-solid fa-gears
-        keywords: MPC, DeePC, Data-driven Control, GPR-based Modeling, Optimal Control
-
       - name: Simulation
-        level: Strong
         icon: fa-solid fa-car
-        keywords: Simulink, Simscape, CarMaker
-
-      - name: Data and AI
-        level: Working
-        icon: fa-solid fa-brain
-        keywords: LSTM, LLM Multi-Agent, Data-driven Prediction Models
-
-      - name: Tools
-        level: Working
-        icon: fa-solid fa-screwdriver-wrench
-        keywords: Git, LaTeX
-
-    Interests:
-      - name: Research Interests
-        icon: fa-solid fa-tag
-        keywords: Data-Enabled Predictive Control, Model Predictive Control, Data-driven Control, EV Thermal Management
+        keywords: Simulink / Simscape, CarMaker, CarSim
