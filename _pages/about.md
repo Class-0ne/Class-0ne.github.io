@@ -7,7 +7,7 @@ subtitle: Hanyang University M.S. student working on DeePC, MPC, data-driven con
 profile:
   align: right
   image: LeeJaeHwan.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>이재환 | Jaehwan Lee</p>
     <p>한양대학교 미래자동차공학과 석사과정</p>
