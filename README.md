@@ -1,31 +1,34 @@
 # Class-0ne.github.io
 
-This repository now uses the `al-folio` Jekyll structure for a graduate portfolio site on GitHub Pages.
+Graduate portfolio site built with Jekyll and `al-folio`, trimmed down to the files used by the current site.
 
-The site is currently organized around three core surfaces:
+## Main pages
 
-- `About` at `/`
-- `Projects` at `/projects/`
-- `CV` at `/cv/`
+- `/` from `_pages/about.md`
+- `/projects/` from `_pages/projects.md`
+- `/cv/` from `_pages/cv.md`
 
 ## Main files to edit
 
-- `_config.yml`: site title, URL, navigation behavior, and global settings
-- `_pages/about.md`: homepage copy and featured project section
-- `_pages/projects.md`: full archive page for graduate projects
-- `_pages/cv.md`: CV page settings
-- `_projects/*.md`: one Markdown file per project
-- `_data/cv.yml`: CV content shown on the CV page
-- `_data/socials.yml`: email, GitHub, LinkedIn, and CV PDF links
+- `_config.yml`
+- `_pages/about.md`
+- `_pages/projects.md`
+- `_pages/cv.md`
+- `_projects/*.md`
+- `_data/cv.yml`
+- `_data/socials.yml`
 
-## Content strategy
+## Asset files still in use
 
-- Keep the strongest work on the homepage.
-- Keep the full master's archive in `Projects`.
-- Attach poster, talk, report, and code links to the relevant project pages instead of splitting them into separate top-level menus.
+- `assets/img/profile-placeholder.svg`
+- `assets/img/project-industry.svg`
+- `assets/img/project-research.svg`
+- `assets/img/project-presentation.svg`
+- `assets/pdf/example_pdf.pdf`
 
-## Before publishing
+## Next content updates
 
-- Replace placeholder department, university, and date fields.
-- Replace `assets/img/profile-placeholder.svg` if you want a real profile image.
-- Replace `assets/pdf/example_pdf.pdf` with your actual CV PDF.
+- Replace placeholder school and department text.
+- Replace sample project titles and summaries.
+- Replace `assets/pdf/example_pdf.pdf` with the real CV PDF.
+- Fill in email and LinkedIn in `_data/socials.yml`.
