@@ -10,8 +10,9 @@ profile:
   image_circular: false
   more_info: >
     <p class="profile-name">이재환 | Jaehwan Lee</p>
-    <p>한양대학교 미래자동차공학과 석사과정</p>
+    <p>한양대학교 미래자동차공학과</p>
     <p>차량 제어 연구실 (VOICE Lab)</p>
+    <p>석사과정 (Master Course)</p>
     <p>Seoul, South Korea</p>
     <p><a href="mailto:hwani0914@gmail.com"><i class="fa-solid fa-envelope"></i> hwani0914@gmail.com</a></p>
     <p><a href="mailto:hwani0914@hanyang.ac.kr"><i class="fa-solid fa-envelope"></i> hwani0914@hanyang.ac.kr</a></p>
