@@ -1,84 +1,151 @@
 cv:
-  name: Class-0ne
-  label: Graduate portfolio draft
-  email: your.email@example.com
-  location: South Korea
+  name: 이재환 (Jaehwan Lee)
+  label: M.S. Student in Automotive Engineering
+  email: hwani0914@gmail.com
+  location: Seoul, South Korea
   website: https://class-0ne.github.io
   summary: >
-    M.S. student building a portfolio around control-oriented modeling, simulation,
-    optimization, and engineering communication. This CV is designed to support
-    job applications while also serving as a compact index of graduate work.
+    한양대학교 미래자동차공학과 석사과정으로, Data-Enabled Predictive Control,
+    Model Predictive Control, data-driven control, EV thermal management를 중심으로
+    연구하고 있습니다. 현대자동차와 LG전자 산학과제를 통해 차량 제어, 데이터 기반 모델링,
+    시뮬레이션 및 검증 업무를 수행하고 있습니다.
 
   social_networks:
     - network: GitHub
       username: Class-0ne
-    - network: LinkedIn
-      username: your-linkedin-id
 
   sections:
     Education:
-      - institution: "[University]"
-        location: South Korea
-        area: "[Department / Major]"
+      - institution: Hanyang University
+        location: Seoul, South Korea
+        area: Department of Automotive Engineering
         studyType: M.S.
-        start_date: 2024
-        end_date: Present
+        start_date: 2025
+        end_date: 2027
         highlights:
-          - Graduate work centered on industry-sponsored projects, modeling, and simulation studies.
+          - "GPA: 4.07/4.5"
+          - "Vehicle Control Lab"
+          - "Advisor: Prof. Kyungseok Han"
 
-      - institution: "[University]"
-        location: South Korea
-        area: "[Department / Major]"
+      - institution: Kyungpook National University
+        location: Daegu, South Korea
+        area: School of Mechanical Engineering
         studyType: B.S.
-        start_date: 2020
-        end_date: 2024
+        start_date: 2019
+        end_date: 2025
+        highlights:
+          - "GPA: 3.54/4.5"
+          - "Major GPA: 3.61/4.5"
 
     Experience:
-      - company: Graduate Research Projects
-        position: M.S. Student / Researcher
-        location: "[University]"
-        start_date: 2024
+      - company: Vehicle Control Lab, Hanyang University
+        position: M.S. Student Researcher
+        location: Seoul, South Korea
+        start_date: 2025
         end_date: Present
-        summary: Building a portfolio around industry-sponsored projects, personal research studies, and technical communication outputs.
+        summary: Data-enabled predictive control for EV thermal management systems.
         highlights:
-          - Industry-sponsored thermal management project
-          - Personal research and modeling studies
-          - Poster and oral presentation materials
+          - "Research topic: Data-enabled Predictive Control for EV Thermal Management System"
+          - "DeePC-based control design and validation for EV thermal systems"
+          - "Control-oriented simulation and evaluation workflow development"
+
+      - company: Hyundai Motor Company Industry Projects
+        position: Participating Researcher / Working-level Lead
+        location: South Korea
+        start_date: 2025
+        end_date: Present
+        summary: Multiple industry-sponsored projects spanning regenerative braking, model-free thermal management, and data-driven AI prediction.
+        highlights:
+          - Personalized regenerative braking control based on driver preference and intervention modeling
+          - Model-free EV integrated thermal management control using DeePC
+          - Brake thermal capacity prediction platform with AI models and LLM-based multi-agent service
+
+      - company: LG Electronics Industry Project
+        position: Participating Researcher -> Working-level Lead
+        location: South Korea
+        start_date: 2025
+        end_date: 2025
+        summary: Data-driven compressor differential restart load modeling and MPC control design.
+        highlights:
+          - LSTM-based load torque prediction model for electric compressor restart
+          - IPMSM dq-axis model-based MPC controller design with voltage constraints
+          - Project leadership transition after prior lead graduated
 
     Projects:
-      - name: Industry-Sponsored Thermal Management Project
-        summary: Main showcase project connecting an applied engineering problem with modeling, simulation, and control design.
+      - name: Hyundai | Personalized Regenerative Braking Control
+        summary: GPR 기반 운전자 선호/개입 모델링과 energy-aware 제동거리 최적화를 결합한 개인화 회생제동 제어 연구.
         highlights:
-          - System modeling
-          - Controller evaluation
-          - Poster and report outputs
-        start_date: 2024
+          - GPR-based BPS and APS modeling
+          - Trade-off based optimal braking distance design
+          - Simulink implementation and CarMaker validation
+        start_date: 2025
         end_date: Present
 
-      - name: Personal Research Study
-        summary: Supporting technical project used to explore a focused method or validation question in more detail.
+      - name: LG | Compressor Restart Load Modeling and MPC
+        summary: 차압기동 부하 예측을 위한 LSTM 모델과 IPMSM dq-axis MPC 제어기 설계 프로젝트.
         highlights:
-          - Comparative experiments
-          - Validation workflow
-        start_date: 2024
+          - LSTM load torque prediction pipeline
+          - MPC speed tracking with voltage constraints
+          - Detailed controller design document
+        start_date: 2025
+        end_date: 2025
+
+      - name: Hyundai | Model-Free EV Thermal Management DeePC
+        summary: 물리 모델 의존성을 줄인 EV 통합 열관리 DeePC 프레임워크 개발.
+        highlights:
+          - Simulink/Simscape integrated thermal model setup
+          - DeePC input/output data generation and Hankel matrix framework
+          - Multi-scenario control performance validation
+        start_date: 2026
         end_date: Present
+
+    Publications:
+      - title: Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions
+        publisher: IFAC Online Paper
+        date: 2026-01-01
+        summary: Submitted manuscript based on personalized energy-aware regenerative braking control research.
 
     Presentations:
-      - label: Poster and oral presentations
-        details: Presentation materials are attached to the relevant project pages instead of being split into separate top-level menus.
+      - label: 2025 추계 한국자동차공학회 학술대회 포스터 발표
+        details: 전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법
+
+    Activities:
+      - label: 천차많별 (자작자동차)
+        details: 2023.01 - 2024.10 | 제작부장, EV 차량 제작 총괄 및 스마트 e모빌리티 경진대회 참가
+      - label: H-점프스쿨
+        details: 2022.03 - 2022.10 | 현대자동차그룹 대학생 교육봉사단 대표장학샘
+      - label: 유진 MS 산학연계 PBL
+        details: 2023.09 - 2024.01 | 무동력 툴체인저 시제품 개발, Creo 3D 모델링, 시제품 제작, 최종 성과 발표
+      - label: H-모빌리티 클래스
+        details: 2025.04 - 2025.06 | 현대엔지비 파워트레인 Track 수료
 
     Skills:
-      - name: Research Tools
-        level: Advanced
+      - name: Programming
+        level: Strong
         icon: fa-solid fa-code
-        keywords: MATLAB, Python, Git, Markdown, LaTeX
+        keywords: MATLAB, Python
 
-      - name: Core Methods
-        level: Advanced
+      - name: Control and Modeling
+        level: Strong
         icon: fa-solid fa-gears
-        keywords: Modeling, Simulation, Optimization, Control
+        keywords: MPC, DeePC, Data-driven Control, GPR-based Modeling, Optimal Control
+
+      - name: Simulation
+        level: Strong
+        icon: fa-solid fa-car
+        keywords: Simulink, Simscape, CarMaker
+
+      - name: Data and AI
+        level: Working
+        icon: fa-solid fa-brain
+        keywords: LSTM, LLM Multi-Agent, Data-driven Prediction Models
+
+      - name: Tools
+        level: Working
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: Git, LaTeX
 
     Interests:
       - name: Research Interests
         icon: fa-solid fa-tag
-        keywords: Thermal systems, control-oriented models, validation workflows, data-driven methods
+        keywords: Data-Enabled Predictive Control, Model Predictive Control, Data-driven Control, EV Thermal Management
