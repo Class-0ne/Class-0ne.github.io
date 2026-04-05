@@ -9,7 +9,7 @@ profile:
   image: LeeJaeHwan.jpg
   image_circular: false
   more_info: >
-    <p>이재환 | Jaehwan Lee</p>
+    <p class="profile-name">이재환 | Jaehwan Lee</p>
     <p>한양대학교 미래자동차공학과 석사과정</p>
     <p>차량 제어 연구실 | 지도교수 한경석</p>
     <p>Seoul, South Korea</p>
@@ -39,10 +39,12 @@ latest_posts:
 
 {% assign featured_projects = site.projects | sort: "importance" | slice: 0, 3 %}
 <div class="projects">
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="container px-0">
+    <div class="row row-cols-1">
     {% for project in featured_projects %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
+    </div>
   </div>
 </div>
 
