@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LG | Compressor Restart Load Modeling and MPC
-description: 전동 압축기 차압기동 부하를 예측하는 LSTM 모델과 IPMSM dq-axis MPC 제어기 설계 프로젝트.
+description: 전동 압축기 차압기동 부하 예측과 MPC 제어기 설계 프로젝트.
 img: assets/img/project-industry.svg
 importance: 2
 category: graduate

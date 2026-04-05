@@ -19,6 +19,57 @@ strong {
   color: var(--global-text-color);
 }
 
+.post {
+  .post-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .post-title {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+
+  .desc,
+  .post-description {
+    max-width: 44rem;
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  article {
+    p,
+    li {
+      line-height: 1.8;
+    }
+
+    h2 {
+      margin-top: 2.75rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 3.5rem;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--global-theme-color), transparent);
+    }
+
+    h3 {
+      margin-top: 1.75rem;
+      color: var(--global-theme-color);
+    }
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

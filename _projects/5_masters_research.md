@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Master's Research | DeePC for EV Thermal Management
-description: 석사과정 연구 주제인 EV 열관리 시스템용 Data-enabled Predictive Control 연구 정리.
+description: EV thermal management를 위한 DeePC 연구 주제 정리.
 img: assets/img/project-presentation.svg
 importance: 5
 category: graduate

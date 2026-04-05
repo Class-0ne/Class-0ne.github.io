@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hyundai | Personalized Regenerative Braking Control
-description: GPR 기반 운전자 성향 모델링과 energy-aware 제동거리 최적화를 결합한 개인화 회생제동 제어 연구.
+description: 운전자 선호와 개입 가능성을 함께 고려한 개인화 회생제동 제어 연구.
 img: assets/img/project-industry.svg
 importance: 1
 category: graduate

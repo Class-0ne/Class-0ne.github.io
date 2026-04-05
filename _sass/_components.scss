@@ -38,6 +38,14 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 20px;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  overflow: hidden;
 
   .card-img {
     width: 100%;
@@ -51,6 +59,12 @@ ul.task-list input[type="checkbox"] {
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--global-theme-border);
+    box-shadow: 0 24px 55px var(--global-theme-shadow);
+  }
 }
 
 // Profile
@@ -62,6 +76,8 @@ ul.task-list input[type="checkbox"] {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    border: 4px solid var(--global-theme-soft);
+    box-shadow: 0 18px 45px var(--global-theme-shadow);
   }
 
   .more-info {
@@ -148,6 +164,16 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--global-theme-color), transparent);
+    }
+
     img {
       width: 100%;
     }
@@ -190,16 +216,28 @@ ul.task-list input[type="checkbox"] {
     font-size: 2rem;
 
     a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.9rem;
+      height: 2.9rem;
+      margin: 0 0.2rem;
+      border-radius: 999px;
+      background-color: var(--global-theme-soft);
+      transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+
       img {
         width: 1.8rem;
         height: 1.8rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
       }
 
       svg {
         width: 2rem;
         height: 2rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
 
         image {
           width: 2rem;
@@ -214,6 +252,8 @@ ul.task-list input[type="checkbox"] {
 
       &:hover {
         text-decoration: none;
+        transform: translateY(-2px);
+        background-color: var(--global-theme-soft-strong);
 
         i::before {
           color: var(--global-theme-color);

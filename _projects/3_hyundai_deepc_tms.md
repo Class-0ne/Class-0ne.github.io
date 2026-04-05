@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hyundai | Model-Free EV Thermal Management DeePC
-description: EV 통합 열관리 시스템을 위한 model-free DeePC 프레임워크 개발 프로젝트.
+description: EV 통합 열관리 시스템을 위한 model-free DeePC 개발 프로젝트.
 img: assets/img/project-research.svg
 importance: 3
 category: graduate
