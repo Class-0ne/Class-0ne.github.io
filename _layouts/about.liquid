@@ -15,8 +15,16 @@ layout: default
   </header>
 
   <article class="about-page">
+    {% assign about_parts = content | split: '<!-- about-fold -->' %}
+    {% assign about_top = about_parts | first %}
+    {% assign about_bottom = '' %}
+    {% if about_parts.size > 1 %}
+      {% assign about_bottom_parts = about_parts | slice: 1, about_parts.size %}
+      {% assign about_bottom = about_bottom_parts | join: '' %}
+    {% endif %}
+
     <div class="about-grid{% unless page.profile %} no-profile{% endunless %}">
-      <div class="about-main">{{ content }}</div>
+      <div class="about-main">{{ about_top }}</div>
 
       {% if page.profile %}
         <aside class="about-sidebar">
@@ -28,7 +36,7 @@ layout: default
               {% else %}
                 {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
               {% endif %}
-              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.24}}px, (min-width: 768px) 240px, 75vw{% endcapture %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.22}}px, (min-width: 768px) 220px, 72vw{% endcapture %}
               {%
                 include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
                 cache_bust=true
@@ -41,6 +49,12 @@ layout: default
         </aside>
       {% endif %}
     </div>
+
+    {% unless about_bottom == blank %}
+      <div class="about-sections">
+        {{ about_bottom }}
+      </div>
+    {% endunless %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

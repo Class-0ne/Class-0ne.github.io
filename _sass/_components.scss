@@ -105,7 +105,7 @@ ul.task-list input[type="checkbox"] {
 .about-page {
   .about-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 250px;
+    grid-template-columns: minmax(0, 1fr) 220px;
     gap: 2.75rem;
     align-items: start;
     margin-bottom: 2rem;
@@ -117,6 +117,10 @@ ul.task-list input[type="checkbox"] {
 
   .about-sidebar {
     min-width: 0;
+  }
+
+  .about-sections {
+    width: 100%;
   }
 
   .profile {
@@ -133,7 +137,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     .about-sidebar {
-      max-width: 250px;
+      max-width: 220px;
       justify-self: center;
     }
 

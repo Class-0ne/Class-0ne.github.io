@@ -35,16 +35,16 @@ latest_posts:
 - EV thermal management
 - Simulation and validation with Simulink, Simscape, and CarMaker
 
+<!-- about-fold -->
+
 ## Featured projects
 
 {% assign featured_projects = site.projects | sort: "importance" | slice: 0, 3 %}
 <div class="projects">
-  <div class="container px-0">
     <div class="row row-cols-1">
     {% for project in featured_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
-    </div>
   </div>
 </div>
 
