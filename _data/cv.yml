@@ -1,0 +1,84 @@
+cv:
+  name: Class-0ne
+  label: Graduate portfolio draft
+  email: your.email@example.com
+  location: South Korea
+  website: https://class-0ne.github.io
+  summary: >
+    M.S. student building a portfolio around control-oriented modeling, simulation,
+    optimization, and engineering communication. This CV is designed to support
+    job applications while also serving as a compact index of graduate work.
+
+  social_networks:
+    - network: GitHub
+      username: Class-0ne
+    - network: LinkedIn
+      username: your-linkedin-id
+
+  sections:
+    Education:
+      - institution: "[University]"
+        location: South Korea
+        area: "[Department / Major]"
+        studyType: M.S.
+        start_date: 2024
+        end_date: Present
+        highlights:
+          - Graduate work centered on industry-sponsored projects, modeling, and simulation studies.
+
+      - institution: "[University]"
+        location: South Korea
+        area: "[Department / Major]"
+        studyType: B.S.
+        start_date: 2020
+        end_date: 2024
+
+    Experience:
+      - company: Graduate Research Projects
+        position: M.S. Student / Researcher
+        location: "[University]"
+        start_date: 2024
+        end_date: Present
+        summary: Building a portfolio around industry-sponsored projects, personal research studies, and technical communication outputs.
+        highlights:
+          - Industry-sponsored thermal management project
+          - Personal research and modeling studies
+          - Poster and oral presentation materials
+
+    Projects:
+      - name: Industry-Sponsored Thermal Management Project
+        summary: Main showcase project connecting an applied engineering problem with modeling, simulation, and control design.
+        highlights:
+          - System modeling
+          - Controller evaluation
+          - Poster and report outputs
+        start_date: 2024
+        end_date: Present
+
+      - name: Personal Research Study
+        summary: Supporting technical project used to explore a focused method or validation question in more detail.
+        highlights:
+          - Comparative experiments
+          - Validation workflow
+        start_date: 2024
+        end_date: Present
+
+    Presentations:
+      - label: Poster and oral presentations
+        details: Presentation materials are attached to the relevant project pages instead of being split into separate top-level menus.
+
+    Skills:
+      - name: Research Tools
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: MATLAB, Python, Git, Markdown, LaTeX
+
+      - name: Core Methods
+        level: Advanced
+        icon: fa-solid fa-gears
+        keywords: Modeling, Simulation, Optimization, Control
+
+    Interests:
+      - name: Research Interests
+        icon: fa-solid fa-tag
+        keywords: Thermal systems, control-oriented models, validation workflows, data-driven methods

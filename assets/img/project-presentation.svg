@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Presentation output placeholder</title>
+  <desc id="desc">Illustrative card image for project-linked presentation outputs.</desc>
+  <rect width="1200" height="700" fill="#fefce8" rx="32" />
+  <rect x="110" y="110" width="540" height="350" rx="26" fill="#facc15" opacity="0.18" />
+  <rect x="680" y="110" width="410" height="54" rx="18" fill="#a16207" opacity="0.2" />
+  <rect x="680" y="208" width="350" height="34" rx="12" fill="#a16207" opacity="0.14" />
+  <rect x="680" y="264" width="318" height="34" rx="12" fill="#a16207" opacity="0.14" />
+  <rect x="680" y="320" width="282" height="34" rx="12" fill="#a16207" opacity="0.14" />
+  <rect x="110" y="504" width="980" height="92" rx="22" fill="#fde68a" />
+  <text x="110" y="630" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#854d0e">Project Outputs: Poster and Talk</text>
+</svg>

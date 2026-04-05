@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Industry project placeholder</title>
+  <desc id="desc">Illustrative card image for an industry-sponsored graduate project.</desc>
+  <rect width="1200" height="700" fill="#eff6ff" rx="32" />
+  <rect x="76" y="84" width="1048" height="532" rx="28" fill="#1d4ed8" opacity="0.12" />
+  <rect x="132" y="146" width="300" height="220" rx="20" fill="#1d4ed8" opacity="0.22" />
+  <rect x="472" y="146" width="596" height="54" rx="18" fill="#1e40af" opacity="0.22" />
+  <rect x="472" y="236" width="476" height="36" rx="12" fill="#1e40af" opacity="0.16" />
+  <rect x="472" y="298" width="420" height="36" rx="12" fill="#1e40af" opacity="0.16" />
+  <rect x="132" y="420" width="936" height="120" rx="22" fill="#0f766e" opacity="0.14" />
+  <text x="132" y="598" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1e3a8a">Industry-Sponsored Project</text>
+</svg>
