@@ -99,7 +99,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -158,6 +158,11 @@ collections:
     defaults:
       layout: post
     output: true
+  notes:
+    output: true
+    defaults:
+      values:
+        layout: post
   projects:
     output: true
   teachings:
