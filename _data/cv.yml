@@ -39,7 +39,7 @@ cv:
         position: Model-Free Predictive Control for EV Integrated Thermal Management
         start_date: Apr. 2026
         end_date: Nov. 2026
-        summary: Working-level Lead
+        summary: Project Lead
         highlights:
           - "Problem: Need real-time control of battery, motor, inverter, and HVAC thermal interactions without relying on high-fidelity physics models"
           - "Approach: Built a Simulink/Simscape EV thermal model, collected DeePC training I/O data, and constructed a Hankel-matrix-based model-free predictive control framework"
@@ -49,7 +49,7 @@ cv:
         position: Data-Driven AI Modeling for Brake Thermal Capacity Prediction
         start_date: May 2026
         end_date: Dec. 2026
-        summary: Working-level Lead
+        summary: Project Lead
         highlights:
           - "Problem: Brake thermal capacity data are fragmented across tests, making early design-stage use difficult and reducing prediction consistency"
           - "Approach: Built an integrated test database and web search platform, developed AI prediction models using design parameters, and implemented an LLM-based role-specialized multi-agent web service"
@@ -69,7 +69,7 @@ cv:
         position: Data-Driven Differential Restart Load Modeling and MPC Control
         start_date: Mar. 2025
         end_date: Dec. 2025
-        summary: Participating Researcher -> Working-level Lead
+        summary: Participating Researcher -> Project Lead
         highlights:
           - "Problem: Existing simulations reflected only nominal operation, causing sim-to-real error during differential restart and requiring 2-3 weeks for repeated validation and tuning"
           - "Approach: Built a 50-step LSTM load torque prediction pipeline from three-phase current and PWM signals, and designed an IPMSM dq-axis MPC controller for speed tracking under voltage constraints"
@@ -77,8 +77,8 @@ cv:
 
     Publications:
       - title: Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions
-        publisher: IFAC Online Paper
-        summary: Submitted, under review.
+        publisher: IFAC WC 2026
+        summary: Accepted.
 
     Conference Presentations:
       - title: 전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법

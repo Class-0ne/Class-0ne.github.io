@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Master's project archive centered on industry-sponsored research.
+description: 석사과정 산학과제 및 연구 프로젝트 아카이브.
 nav: true
 nav_order: 1
 horizontal: true

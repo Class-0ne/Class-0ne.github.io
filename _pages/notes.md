@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <div class="notes">
-  {% assign sorted_notes = site.notes | sort: "date" | reverse %}
+  {% assign sorted_notes = site.posts | sort: "date" | reverse %}
   {% if sorted_notes.size > 0 %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">

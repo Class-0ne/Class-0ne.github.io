@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Automotive engineering M.S. student focused on DeePC, MPC, and EV thermal management.
+subtitle: M.S. student @ Hanyang University · Data-driven control & EV thermal management
 
 profile:
   align: right
@@ -25,36 +25,29 @@ announcements:
   enabled: false
 
 latest_posts:
-  enabled: false
+  enabled: true
 ---
 
-한양대학교 미래자동차공학과 석사과정에서 차량 제어와 EV 열관리 시스템을 연구하고 있습니다. 이 사이트는 석사과정 동안 수행한 주요 산학과제와 연구 프로젝트를 정리한 포트폴리오입니다.
+한양대학교 미래자동차공학과 VOICE Lab에서 석사과정 중입니다.
 
-현재는 **DeePC**, **MPC**, **data-driven control**, **EV thermal management**를 중심으로 연구하고 있습니다. 현대자동차와 LG전자 산학과제를 통해 제어기 설계, 데이터 기반 모델링, 시뮬레이션 및 검증 업무를 수행하고 있습니다.
+데이터 기반 제어와 EV 통합 열관리에 관심이 있습니다.  
+특히 물리 모델 없이 데이터로부터 직접 제어기를 구성하는 **DeePC**를 EV 통합 열관리 시스템에 적용하는 연구를 하고 있습니다.  
+현대자동차, LG전자와의 산학과제를 통해 제어기 설계부터 Simulink/Simscape 기반 시뮬레이션 검증까지 수행하고 있습니다.
 
 ## Focus
 
-- DeePC and MPC for automotive systems
-- Data-driven control and modeling
-- EV thermal management
-- Simulation and validation with Simulink, Simscape, and CarMaker
+- **Data-enabled Predictive Control (DeePC)** — model-free control from data
+- **EV 통합 열관리** — battery, motor, HVAC 통합 최적화
+- **차량 시뮬레이션** — Simulink/Simscape, CarMaker/CarSim 기반 검증
 
 <!-- about-fold -->
 
-## Featured projects
+## News
 
-{% assign featured_projects = site.projects | sort: "importance" | slice: 0, 3 %}
-<div class="projects">
-    <div class="row row-cols-1">
-    {% for project in featured_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-  </div>
-</div>
-
-<!-- ## Selected Output
-
-- IFAC Online Paper 투고  
-  _Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions_
-- 2025 추계 한국자동차공학회 학술대회 포스터 발표  
-  _전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법_ -->
+- **2026.04** &nbsp; 현대자동차 산학과제 착수 — EV 통합 열관리 DeePC 제어기 개발 (실무책임자)
+- **2026.04** &nbsp; IFAC WC 2026 — *Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions* (accepted)
+- **2025.12** &nbsp; LG전자 산학과제 완료 — 데이터 기반 컴프레셔 차압기동 부하 모델링 및 최적제어
+- **2025.11** &nbsp; 한국자동차공학회 추계학술대회 포스터 발표 — *전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법*
+- **2025.07** &nbsp; 현대자동차 산학과제 착수 — 도심주행 개인화 회생제동 제어 (참여 연구원)
+- **2025.03** &nbsp; LG전자 산학과제 착수 — 데이터 기반 컴프레셔 차압기동 부하 모델링 및 최적제어 (참여 연구원)
+- **2025.03** &nbsp; 한양대학교 미래자동차공학과 석사과정 입학
