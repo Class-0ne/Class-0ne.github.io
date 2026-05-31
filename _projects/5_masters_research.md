@@ -75,9 +75,9 @@ Y_f
 &=
 \begin{bmatrix}
 u_{ini} \\
-y_{ini} \\
+y_{ini} + \sigma_y \\
 u_f \\
-y_f + \sigma_y
+y_f
 \end{bmatrix} \\
 u_f &\in \mathcal{U}, \qquad
 y_f \in \mathcal{Y}
@@ -186,4 +186,4 @@ end
 ## Related Notes
 
 - [DeePC란 무엇인가: 모델 없이 데이터를 보고 제어하는 방법](/blog/2026/deepc-intro-for-everyone/) — 일반인을 위한 DeePC 개념 소개
-- [간단한 수식으로 보는 DeePC](/blog/2026/deepc-intro-with-equations/) — 제어 기초를 아는 학부생을 위한 DeePC 소개
+- [간단한 수식으로 보는 DeePC](/blog/2026/deepc-intro-with-equations/) — 제어공학을 한 번 배운 독자를 위한 DeePC 소개

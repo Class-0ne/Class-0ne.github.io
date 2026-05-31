@@ -2,7 +2,7 @@
 layout: post
 title: "간단한 수식으로 보는 DeePC"
 date: 2026-05-31
-description: 상태공간 모델과 MPC를 조금 아는 학부생을 위한 Data-Enabled Predictive Control 소개
+description: 제어공학을 한 번 배운 독자를 위한 Data-Enabled Predictive Control 소개
 tags: [DeePC, MPC, data-driven control, control]
 toc:
   beginning: true
@@ -189,22 +189,23 @@ $$
 \end{aligned}
 $$
 
-subject to
-
 $$
+\begin{aligned}
+\text{s.t.}\quad
 \begin{bmatrix}
 U_p \\
 Y_p \\
 U_f \\
 Y_f
 \end{bmatrix} g
-=
+&=
 \begin{bmatrix}
 u_{\mathrm{ini}} \\
 y_{\mathrm{ini}} \\
 u_f \\
 y_f
 \end{bmatrix}
+\end{aligned}
 $$
 
 필요하면 입력 제한과 출력 제한도 추가합니다.
@@ -273,22 +274,23 @@ $$
 \end{aligned}
 $$
 
-subject to
-
 $$
+\begin{aligned}
+\text{s.t.}\quad
 \begin{bmatrix}
 U_p \\
 Y_p \\
 U_f \\
 Y_f
 \end{bmatrix} g
-=
+&=
 \begin{bmatrix}
 u_{\mathrm{ini}} \\
-y_{\mathrm{ini}}+\sigma_y \\
+y_{\mathrm{ini}} + \sigma_y \\
 u_f \\
 y_f
 \end{bmatrix}
+\end{aligned}
 $$
 
 여기서 $\lambda_g$와 $\lambda_y$는 단순한 튜닝 숫자가 아니라, 데이터 기반 예측이 너무 과하게 흔들리지 않도록 잡아 주는 중요한 파라미터입니다.
