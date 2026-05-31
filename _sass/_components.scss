@@ -137,7 +137,6 @@ ul.task-list input[type="checkbox"] {
     }
 
     .about-sidebar {
-      order: -1;
       max-width: 220px;
       justify-self: center;
     }
@@ -178,6 +177,32 @@ ul.task-list input[type="checkbox"] {
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
+}
+
+@media (max-width: 575px) {
+  .cv {
+    .list-group-item > .row {
+      display: block;
+    }
+
+    .date-column {
+      width: 100%;
+      transform: none;
+      text-align: left !important;
+      margin-bottom: 0.5rem;
+
+      .table-cv {
+        width: auto;
+        margin-bottom: 0.25rem;
+      }
+
+      .badge {
+        min-width: 0 !important;
+        white-space: normal;
+        text-align: left;
+      }
+    }
+  }
 }
 
 // Projects

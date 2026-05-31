@@ -47,6 +47,12 @@ p.location {
   white-space: nowrap;
 }
 
+@media (max-width: 575px) {
+  p.location {
+    white-space: normal;
+  }
+}
+
 i.iconlocation {
   color: var(--global-theme-color);
   font-size: 0.8rem;

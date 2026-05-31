@@ -43,7 +43,7 @@ cv:
         highlights:
           - "Problem: Need real-time control of battery, motor, inverter, and HVAC thermal interactions without relying on high-fidelity physics models"
           - "Approach: Built a Simulink/Simscape EV thermal model, collected DeePC training I/O data, and constructed a Hankel-matrix-based model-free predictive control framework"
-          - "Target: Cabin temperature tracking error within 10%, battery/PE safety violation rate within 5%, and average controller runtime under 1 s"
+          - "Target: Cabin temperature tracking error within 10%, battery/motor safety violation rate within 5%, and average controller runtime under 1 s"
 
       - company: Hyundai Motor Company
         position: Data-Driven AI Modeling for Brake Thermal Capacity Prediction
@@ -63,7 +63,7 @@ cv:
         highlights:
           - "Problem: Conventional automatic regenerative braking maximizes energy recovery alone and can trigger driver interventions that reduce actual recovery opportunities"
           - "Approach: Modeled driver preference and intervention distributions with GPR, then optimized braking distance based on the intervention-energy trade-off; implemented in MATLAB/Simulink and validated in CarMaker"
-          - "Outcome: Submitted IFAC Online Paper, _Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions_"
+          - "Outcome: Accepted at IFAC WC 2026, _Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions_"
 
       - company: LG Electronics
         position: Data-Driven Differential Restart Load Modeling and MPC Control

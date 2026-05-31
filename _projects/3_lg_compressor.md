@@ -38,5 +38,5 @@ tags: [MPC, IPMSM, Compressor, Simulink]
 
 - LSTM 기반 부하토크 예측 모델
 - MPC 제어기 설계 코드 및 모델예측제어기 상세설계서
-- 2025 추계 한국자동차공학회 학술대회 포스터 발표  - *전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법*
+- 2025 추계 한국자동차공학회 학술대회 포스터 발표 — *전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법*
 - **LG전자 Target Lab 선정** (2026 ~)

@@ -105,6 +105,8 @@
           {% capture link %}mailto:{{ social[1] | encode_email }}{% endcapture %}
           {% assign sameaslinks = sameaslinks | push: link %}
         {% endcomment %}
+      {% when 'cv_pdf' %}
+        {% comment %} CV files are not identity profiles for Schema.org sameAs. {% endcomment %}
       {% when 'facebook_id' %}
         {% capture link %}https://facebook.com/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
@@ -222,7 +224,9 @@
         {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% else %}
-        {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% if social[1].url %}
+          {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% endif %}
     {% endcase %}
   {% endfor %}
 

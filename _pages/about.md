@@ -44,6 +44,7 @@ latest_posts:
 
 ## News
 
+- **2026.05** &nbsp; 현대자동차 산학과제 착수 — 브레이크 열용량 예측 AI 모델 개발 (실무책임자)
 - **2026.04** &nbsp; 현대자동차 산학과제 착수 — EV 통합 열관리 DeePC 제어기 개발 (실무책임자)
 - **2026.04** &nbsp; IFAC WC 2026 — *Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions* (accepted)
 - **2025.12** &nbsp; LG전자 산학과제 완료 — 데이터 기반 컴프레셔 차압기동 부하 모델링 및 최적제어

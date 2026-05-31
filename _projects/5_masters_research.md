@@ -28,7 +28,17 @@ toc:
 
 길이 $T$의 입력 신호 $u_d$가 order $L + n$으로 Persistently Exciting하면, 선형 시불변 시스템에서 길이 $L$의 **모든** trajectory $(u, y)$는 다음과 같이 표현됩니다:
 
-$$\begin{bmatrix} \mathcal{H}_L(u_d) \\ \mathcal{H}_L(y_d) \end{bmatrix} g = \begin{bmatrix} u \\ y \end{bmatrix}$$
+$$
+\begin{bmatrix}
+\mathcal{H}_L(u_d) \\
+\mathcal{H}_L(y_d)
+\end{bmatrix} g
+=
+\begin{bmatrix}
+u \\
+y
+\end{bmatrix}
+$$
 
 여기서 $\mathcal{H}_L(\cdot)$은 Hankel 행렬, $g \in \mathbb{R}^{T-L+1}$은 결합 계수 벡터입니다.
 
@@ -40,9 +50,39 @@ $$\begin{bmatrix} \mathcal{H}_L(u_d) \\ \mathcal{H}_L(y_d) \end{bmatrix} g = \be
 
 수집한 오프라인 데이터 $(u_d, y_d)$로부터 Hankel 행렬을 구성하고, 매 control step마다 다음 QP를 풀어 최적 입력을 결정합니다:
 
-$$\min_{g,\, u_f,\, y_f} \quad \sum_{k=0}^{N-1} \left( \|y_f^k - r^k\|_Q^2 + \|u_f^k\|_R^2 \right) + \lambda_g \|g\|_2^2 + \lambda_y \|\sigma_y\|_2^2$$
+$$
+\begin{aligned}
+\min_{g,\,u_f,\,y_f,\,\sigma_y}\quad
+& \sum_{k=0}^{N-1}
+\left(
+\|y_f^k-r^k\|_Q^2
++ \|u_f^k\|_R^2
+\right) \\
+& + \lambda_g \|g\|_2^2
++ \lambda_y \|\sigma_y\|_2^2
+\end{aligned}
+$$
 
-$$\text{s.t.} \quad \begin{bmatrix} U_{ini} \\ Y_{ini} \\ U_f \\ Y_f \end{bmatrix} g = \begin{bmatrix} u_{ini} \\ y_{ini} \\ u_f \\ y_f + \sigma_y \end{bmatrix}, \quad u_f \in \mathcal{U}, \quad y_f \in \mathcal{Y}$$
+$$
+\begin{aligned}
+\text{s.t.}\quad
+\begin{bmatrix}
+U_{ini} \\
+Y_{ini} \\
+U_f \\
+Y_f
+\end{bmatrix} g
+&=
+\begin{bmatrix}
+u_{ini} \\
+y_{ini} \\
+u_f \\
+y_f + \sigma_y
+\end{bmatrix} \\
+u_f &\in \mathcal{U}, \qquad
+y_f \in \mathcal{Y}
+\end{aligned}
+$$
 
 ### 주요 변수
 
@@ -64,7 +104,19 @@ $\lambda_g$와 $\lambda_y$는 단순 수치 안정화가 아니라, 비선형 �
 
 길이 $T$의 신호 $w \in \mathbb{R}^T$에 대한 order $L$ Hankel 행렬:
 
-$$\mathcal{H}_L(w) = \begin{bmatrix} w_1 & w_2 & \cdots & w_{T-L+1} \\ w_2 & w_3 & \cdots & w_{T-L+2} \\ \vdots & & \ddots & \vdots \\ w_L & w_{L+1} & \cdots & w_T \end{bmatrix} \in \mathbb{R}^{L \times (T-L+1)}$$
+$$
+\mathcal{H}_L(w)=
+\begin{bmatrix}
+w_1 & w_2 & \cdots & w_{T-L+1} \\
+w_2 & w_3 & \cdots & w_{T-L+2} \\
+\vdots & \vdots & \ddots & \vdots \\
+w_L & w_{L+1} & \cdots & w_T
+\end{bmatrix}
+$$
+
+$$
+\mathcal{H}_L(w) \in \mathbb{R}^{L \times (T-L+1)}
+$$
 
 다변수 신호 $w \in \mathbb{R}^{m}$인 경우 각 column은 $mL$차원 벡터로 구성됩니다.
 
@@ -133,4 +185,5 @@ end
 
 ## Related Notes
 
-- [DeePC에서 PE 조건 설계가 성능을 결정한다](/blog/2026/deepc-pe-condition-design/) — PE rank만으로는 부족하다: local linearity 보존이 핵심
+- [DeePC란 무엇인가: 모델 없이 데이터를 보고 제어하는 방법](/blog/2026/deepc-intro-for-everyone/) — 일반인을 위한 DeePC 개념 소개
+- [간단한 수식으로 보는 DeePC](/blog/2026/deepc-intro-with-equations/) — 제어 기초를 아는 학부생을 위한 DeePC 소개
