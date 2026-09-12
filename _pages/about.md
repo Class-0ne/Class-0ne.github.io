@@ -50,14 +50,14 @@ latest_posts:
 
 ## News
 
-- **2026.08** &nbsp; [IFAC World Congress 2026에서 개인화 회생제동 연구 논문 발표 및 Interactive Application Paper Prize 최종 6편 후보 선정](/projects/2_hyundai_regen/)
-- **2026.07** &nbsp; [현대자동차 개인화 회생제동 산학과제 완료 — CarMaker HILS 평가와 MABX 기반 실차 시험 수행](/projects/2_hyundai_regen/)
-- **2026.07** &nbsp; [ICROS 2026 발표 — *전기차 열관리 시스템을 위한 Contextual Sampling 데이터 기반 예측 제어(DeePC)*](/projects/1_hyundai_deepc_tms/)
-- **2026.05** &nbsp; 현대자동차 산학과제 착수 — 브레이크 열용량 예측 AI 모델 개발 (실무책임자)
-- **2026.04** &nbsp; 현대자동차 산학과제 착수 — EV 통합 열관리 DeePC 제어기 개발 (실무책임자)
+- **2026.08** &nbsp; [IFAC World Congress 2026 발표 및 Interactive Application Paper Prize 최종 후보 선정 — *Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions*](/projects/2_hyundai_regen/#evidence) (과제: 도심주행에서 에너지 고효율 모션 제어를 위한 주행 최적화 및 실적용성 향상 기술 개발)
+- **2026.07** &nbsp; 현대자동차 산학과제 완료 — [도심주행에서 에너지 고효율 모션 제어를 위한 주행 최적화 및 실적용성 향상 기술 개발](/projects/2_hyundai_regen/) (CarMaker HILS 평가 및 MABX 기반 실차 시험 수행)
+- **2026.07** &nbsp; ICROS 2026 발표 — *전기차 열관리 시스템을 위한 Contextual Sampling 데이터 기반 예측 제어(DeePC)* (과제: 모델링이 필요 없는 EV 통합 열관리 예측 제어)
+- **2026.05** &nbsp; 현대자동차 산학과제 착수 — [브레이크 열용량 예측 정합성 향상을 위한 데이터 기반 AI 모델 개발](/projects/4_hyundai_brake_ai/) (실무책임자)
+- **2026.04** &nbsp; 현대자동차 산학과제 착수 — [모델링이 필요 없는 EV 통합 열관리 예측 제어](/projects/1_hyundai_deepc_tms/) (실무책임자)
 - **2026.04** &nbsp; IFAC WC 2026 — *Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions* (accepted)
-- **2025.12** &nbsp; LG전자 산학과제 완료 — 데이터 기반 컴프레셔 차압 기동 부하 모델링 및 최적제어
+- **2025.12** &nbsp; LG전자 산학과제 완료 — [데이터 기반 컴프레셔 차압 기동 부하 모델링 및 최적제어](/projects/3_lg_compressor/)
 - **2025.11** &nbsp; 한국자동차공학회 추계학술대회 포스터 발표 — *전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법*
-- **2025.07** &nbsp; 현대자동차 산학과제 착수 — 도심주행 개인화 회생제동 제어 (참여 연구원)
-- **2025.03** &nbsp; LG전자 산학과제 착수 — 데이터 기반 컴프레셔 차압 기동 부하 모델링 및 최적제어 (참여 연구원)
+- **2025.07** &nbsp; 현대자동차 산학과제 착수 — [도심주행에서 에너지 고효율 모션 제어를 위한 주행 최적화 및 실적용성 향상 기술 개발](/projects/2_hyundai_regen/) (참여 연구원)
+- **2025.03** &nbsp; LG전자 산학과제 착수 — [데이터 기반 컴프레셔 차압 기동 부하 모델링 및 최적제어](/projects/3_lg_compressor/) (참여 연구원)
 - **2025.03** &nbsp; 한양대학교 미래자동차공학과 석사과정 입학

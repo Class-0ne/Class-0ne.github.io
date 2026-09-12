@@ -60,3 +60,14 @@ MABX 기반 실차 시험에서 통합 제어 로직을 적용하고, 주행 데
 - Interactive Application Paper Prize 최종 6편 후보 선정 ([VOICE Lab publication list](https://sites.google.com/view/voice-lab/publications/international-conference))
 - CarMaker/Simulink 기반 시나리오별 제동 성능 및 운전자 개입 분석 결과
 - MABX 기반 실차 시험 데이터 및 GPR 온라인 갱신 확인 결과
+
+## Evidence
+
+<div class="row mt-3">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <img src="/assets/img/projects/ifac_interactive_paper_prize_certificate.jpg" alt="IFAC Congress Interactive Application Paper Prize finalist certificate for Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions" class="img-fluid rounded z-depth-1">
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <img src="/assets/img/projects/ifac_interactive_application_finalists.jpg" alt="IFAC World Congress 2026 Interactive Application Paper Prize finalist photo" class="img-fluid rounded z-depth-1">
+  </div>
+</div>
