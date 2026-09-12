@@ -40,10 +40,19 @@ latest_posts:
 - **EV 통합 열관리** — battery, motor, HVAC 통합 최적화
 - **차량 시뮬레이션** — Simulink/Simscape, CarMaker/CarSim 기반 검증
 
+## Key Projects
+
+- [**Model-Free EV Thermal Management DeePC**](/projects/1_hyundai_deepc_tms/) — EV 통합 열관리 시스템을 위한 데이터 기반 예측 제어기 개발
+- [**Brake Thermal Capacity AI Prediction**](/projects/4_hyundai_brake_ai/) — 브레이크 열용량 시험 데이터 통합 DB와 AI 예측 모델 개발
+- [**Personalized Regenerative Braking Control**](/projects/2_hyundai_regen/) — 운전자 개입 가능성과 회생에너지 회수를 함께 고려한 개인화 제어
+
 <!-- about-fold -->
 
 ## News
 
+- **2026.08** &nbsp; [IFAC World Congress 2026에서 개인화 회생제동 연구 논문 발표 및 Interactive Application Paper Prize 최종 6편 후보 선정](/projects/2_hyundai_regen/)
+- **2026.07** &nbsp; [현대자동차 개인화 회생제동 산학과제 완료 — CarMaker HILS 평가와 MABX 기반 실차 시험 수행](/projects/2_hyundai_regen/)
+- **2026.07** &nbsp; [ICROS 2026 발표 — *전기차 열관리 시스템을 위한 Contextual Sampling 데이터 기반 예측 제어(DeePC)*](/projects/1_hyundai_deepc_tms/)
 - **2026.05** &nbsp; 현대자동차 산학과제 착수 — 브레이크 열용량 예측 AI 모델 개발 (실무책임자)
 - **2026.04** &nbsp; 현대자동차 산학과제 착수 — EV 통합 열관리 DeePC 제어기 개발 (실무책임자)
 - **2026.04** &nbsp; IFAC WC 2026 — *Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions* (accepted)
