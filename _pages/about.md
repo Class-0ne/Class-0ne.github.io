@@ -57,7 +57,7 @@ latest_posts:
 - **2026.04** &nbsp; 현대자동차 산학과제 착수 — [모델링이 필요 없는 EV 통합 열관리 예측 제어](/projects/1_hyundai_deepc_tms/) (실무책임자)
 - **2026.04** &nbsp; IFAC World Congress 2026 — *Personalized Energy-Aware Regenerative Braking Control Minimizing Driver Interventions* (accepted)
 - **2025.12** &nbsp; LG전자 산학과제 완료 — [데이터 기반 컴프레셔 차압 기동 부하 모델링 및 최적제어](/projects/3_lg_compressor/)
-- **2025.11** &nbsp; 한국자동차공학회 추계학술대회 포스터 발표 — *전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법*
+- **2025.11** &nbsp; [한국자동차공학회 추계학술대회 발표 — *전기자동차용 IPMSM의 에너지 최적 제어를 위한 MTPA-MPC 기법*](https://sites.google.com/view/voice-lab/publications/domestic-conference)
 - **2025.07** &nbsp; 현대자동차 산학과제 착수 — [도심주행에서 에너지 고효율 모션 제어를 위한 주행 최적화 및 실적용성 향상 기술 개발](/projects/2_hyundai_regen/) (참여 연구원)
 - **2025.03** &nbsp; LG전자 산학과제 착수 — [데이터 기반 컴프레셔 차압 기동 부하 모델링 및 최적제어](/projects/3_lg_compressor/) (참여 연구원)
 - **2025.03** &nbsp; 한양대학교 미래자동차공학과 석사과정 입학
